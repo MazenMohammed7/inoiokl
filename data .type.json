@@ -1,0 +1,15 @@
+{
+    "uesrname" : "Mazen",
+    "cont" : "spain",
+    "skils":[
+        "Html",
+        "css",
+        "javascrpit",
+        "json"
+    ],
+    "adreess":{
+        "USA" :"Carfonia",
+        "egypt" : "cario",
+        "garmian" : "barlein"
+    }
+}

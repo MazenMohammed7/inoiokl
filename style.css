@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background: url("image/0000-MENA_WHITENOVEMBER_MH_D_2880x1280px_EN-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+
+}
+
+header div button {
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    padding:  10px 20px;
+    font-size: 16px;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+
+
+/* Mobile */
+
+@media  (max-width: 780px) {
+    header {
+        background-position: center;
+    }
+    header div {
+    margin-left: 27%;
+    }
+    header div > h1 {
+        font-family: sans-serif;
+        margin-bottom: 10px;
+        margin-top: 70%;
+        font-size: 40px;
+    }
+    header div > p {
+        margin-bottom: 5px;
+       
+        font-family: sans-serif;
+    }
+    header div button {
+        margin-left: 44px;
+        border-radius: 5px;
+    }
+    header div button:hover {
+        background-color: red;
+        border: 1px solid red;
+
+    }
+    .snow1 img{
+        width: 150px;
+
+    }
+    .snow1{
+        margin-left: 30%;
+        margin-top: 5%;
+    }
+    .snow1 button{
+        background-color: rgb(13, 202, 13);
+        border: 1px solid rgb(13, 202, 13);
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin-left: 12%;
+        margin-bottom: 7%;
+        margin-top: 4%;
+    }
+}
+
+/* Small Screens */
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Medium Screens */
+
+@media (min-width: 992px) {
+}
+
+/* Large Screens */
+
+@media (min-width: 1200px) {
+
+}
+
+/* Custom */
+
+@media (max-width: 1199px) {
+}
